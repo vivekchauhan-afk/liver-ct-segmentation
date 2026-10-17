@@ -1,26 +1,166 @@
+# ==================================================
 # Python temporary files
+# ==================================================
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
+*$py.class
+*.so
 
-# Model checkpoints
+# ==================================================
+# Jupyter Notebook
+# ==================================================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ==================================================
+# Machine Learning model checkpoints
+# ==================================================
 *.keras
 *.h5
 *.hdf5
 *.pth
 *.pt
 *.ckpt
+*.onnx
+*.safetensors
 
-# Dataset directories
+# ==================================================
+# Medical imaging datasets
+# ==================================================
 data/
 dataset/
 datasets/
 
+# Common medical image and archive files
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.mhd
+*.nrrd
+*.zip
+*.7z
+*.rar
+
+# ==================================================
 # Credentials and environment files
+# ==================================================
 .env
 .env.*
 !.env.example
+.envrc
+.pypirc
 
+# ==================================================
 # Virtual environments
+# ==================================================
 venv/
 .venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==================================================
+# Python packaging and build files
+# ==================================================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==================================================
+# Testing and coverage
+# ==================================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+.cover/
+cover/
+
+# ==================================================
+# Python frameworks and tools
+# ==================================================
+instance/
+.webassets-cache/
+.scrapy/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+celerybeat-schedule*
+celerybeat.pid
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# ==================================================
+# Editors and IDEs
+# ==================================================
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+.idea/
+
+# ==================================================
+# Documentation build files
+# ==================================================
+docs/_build/
+site/
+
+# ==================================================
+# Other temporary files
+# ==================================================
+tempCodeRunnerFile.py
+.ruff_cache/
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+.streamlit/secrets.toml
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# ==================================================
+# Local experiment outputs
+# Uncomment only if you want to exclude all outputs.
+# Keep selected CSV results and plots tracked for your project.
+# ==================================================
+# outputs/
+
+# ==================================================
+# Package manager lockfiles
+# Uncomment if you intentionally want to exclude these.
+# ==================================================
+# Pipfile.lock
+# poetry.lock
+# uv.lock
+# pdm.lock
