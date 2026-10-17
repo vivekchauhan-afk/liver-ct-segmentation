@@ -1,0 +1,26 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.keras
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+
+# Dataset directories
+data/
+dataset/
+datasets/
+
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/

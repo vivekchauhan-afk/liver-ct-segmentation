@@ -1,0 +1,2 @@
+Model,Dice,IoU,Precision,Recall,Pixel Accuracy
+U-Net,0.80535454,0.78697765,0.87266743,0.86799777,0.990871

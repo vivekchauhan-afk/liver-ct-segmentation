@@ -1,0 +1,5 @@
+Metric,Mean,Median
+False Positive Pixels,257.29446517412936,24.0
+False Negative Pixels,202.45584577114428,44.0
+True Positive Pixels,383.12344527363183,86.5
+True Negative Pixels,15541.126243781095,15739.5
